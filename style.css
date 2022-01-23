@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    margin:20% 50%;
+    font-size: large;
+}
+
+
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-top:-294px;
+    margin-left: 51.75%;
+    animation: circleone;
+    display: none;
+    /* position: relative; */
+}
+
+@keyframes circleone {
+    transform:
+    
+}
+.first:hover + .circle {
+    display: block;
+
+}
+.first:hover {
+    cursor:pointer;
+    transform: scale(1.5);
+    transition: 0.3s;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+/* .circle {
+    width: 96px;
+    height: 96px;
+    background: #eee;
+    border-color: red;
+    border-style: solid;
+    border-radius: 100%;
+    position: relative;
+ } */
