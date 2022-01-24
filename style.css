@@ -15,31 +15,43 @@ body{
     height: 10px;
     background-color: crimson;
     border-radius: 50%;
-    margin-top:-294px;
-    margin-left: 51.75%;
-    animation: circleone;
+    margin-top:-301px;
+    margin-left: 51.25%;
+    animation-name: circleone;
+    animation-duration: 0.3s;
+    transform: scale(1.1);
     display: none;
     /* position: relative; */
 }
 
-@keyframes circleone {
-    transform:
-    
-}
+
 .first:hover + .circle {
     display: block;
 
 }
 .first:hover {
     cursor:pointer;
-    transform: scale(1.5);
-    transition: 0.3s;
+    position: relative;
+    /* transform: scale(1.5);
+    transition: 0.3s; */
     color: crimson;
+    animation-name: writings;
+    animation-duration: 0.3s ;
+    transform: scale(1.2);
+    
+}
+@keyframes writings {
+    from{transform: scale(1);}
+    to {transform: scale(1.2);
+    }
 }
 
+@keyframes circleone {
+    from{transform: scale(0.5);}
+    to{transform: scale(1.3);}
 
 
-
+}
 
 
 
